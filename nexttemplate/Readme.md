@@ -26,4 +26,8 @@
 
 ## Scss config
 
-- scss is configured in `assets\scss\style.scss`
+- **SCSS** code is at `assets\scss\style.scss`
+- `style.scss` is imported into `layouts\frontoffice.js`
+- `pages\_document.js` contains link to the `css` file generated from `scss`
+
+    `<link rel="stylesheet" href="/_next/static/style.css" />`
