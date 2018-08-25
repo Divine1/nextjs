@@ -1,15 +1,16 @@
 {
   "name": "nexttemplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this is a boilerplate template for nextjs project. You can start to build your webproject from this",
+  "main": "pages/index.js",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "export": "next export"
   },
-  "author": "",
+  "author": "divine",
+  "email" : "divinecutler@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
