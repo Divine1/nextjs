@@ -7,7 +7,7 @@ class IndexPage extends Component{
     render(){
         return(
             <div>
-                <h1>HomePage</h1>
+                <h1>TrainingPage</h1>
             </div>
         )
     }
