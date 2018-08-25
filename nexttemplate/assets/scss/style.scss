@@ -1,10 +1,20 @@
-$font-size: 50px;
-.example {
-  font-size: $font-size;
-  background-color: orange;
-}
+$font-size: 20px;
 
 body{
   padding:0;
   margin:0;
+}
+
+#header{
+  display:flex;
+  justify-content: center;
+  font-size: $font-size;
+  div{
+    padding: 10px;
+    a{
+      text-decoration: none;
+      color:black;
+      border-bottom: 2px solid brown;
+    }
+  }
 }

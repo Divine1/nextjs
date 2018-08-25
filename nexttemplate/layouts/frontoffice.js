@@ -5,7 +5,6 @@ import "../assets/scss/style.scss";
 const FrontOffice = (props) =>{
     return(
         <div>
-            <div className="example">Example program</div>
             <Header />
             {props.children}
         </div>

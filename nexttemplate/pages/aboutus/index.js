@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import FrontOffice from '../../layouts/frontoffice';
 
 class IndexPage extends Component{
     constructor(){
@@ -6,9 +7,11 @@ class IndexPage extends Component{
     }
     render(){
         return(
-            <div>
-                <h1>AboutusPage</h1>
-            </div>
+            <FrontOffice>
+                <div>
+                    <h1>AboutusPage</h1>
+                </div>
+            </FrontOffice>
         )
     }
 }
