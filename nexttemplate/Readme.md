@@ -11,6 +11,7 @@
 ## Production mode 
 
 `npm run build`
+
 `npm run start`
 
 - optimized files will be generated into assets directory
@@ -18,6 +19,7 @@
 ## Generate static pages
 
 `npm run build`
+
 `npm run export`
 
 - static files will be exported into out directory
