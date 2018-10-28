@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Frontoffice from '../layout/Frontoffice';
-import Card from '../components/card/Card';
+import Card from '../components/viewaccount/card/Card';
 
 const HomePage = () => {
 

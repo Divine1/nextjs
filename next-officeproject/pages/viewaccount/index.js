@@ -1,5 +1,5 @@
 import React from 'react';
-import ExpansionPanel from '../../components/expansionpanels/index';
+import ExpansionPanel from '../../components/viewaccount/expansionpanels/index';
 import { withRouter } from 'next/router'
 
 
