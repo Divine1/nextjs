@@ -2,21 +2,18 @@ import React, {Component} from 'react';
 import Router ,{withRouter}from 'next/router';
 
 
-
-class IndexPage extends Component{
-
-
+class HomePage extends Component{
     componentDidMount(){
-        console.log("in componentDidMount IndexPage")
-        Router.push({pathname: '/dave/home'})
+        console.log("in componentDidmount")
+        console.log("props ",this.props)
     }
     render(){
         return(
             <div>
-                from IndexPage
+                from HomePage
             </div>
         )
     }
 }
 
-export default withRouter(IndexPage);
+export default withRouter(HomePage);

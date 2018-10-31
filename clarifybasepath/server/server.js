@@ -19,12 +19,30 @@ app.prepare()
   pro.get('*', (req, res) => {
     // console.log("originalUrl ",req.originalUrl)  
     // console.log("baseUrl ",req.baseUrl)
-    // console.log("path ",req.path)
-    // console.log("req.url ",req.url);
+    console.log("path ",req.path)
+    console.log("req.url ",req.url);
     // console.log("req.headers.host ",req.headers.host)
     //return handle(req, res)
-    const page = "/login";
-    app.render(req,res,page);
+
+    let queryParams = { title: req.query.accountid } 
+    let page = "/login";
+    
+    switch(req.path){
+      case "/":
+        page = "/";
+      break;
+      case "/login":
+        page = "/login"
+      break;
+      case "/home":
+        page="/home"
+      break;
+    }
+    
+    console.log("-----------")
+    console.log("queryParams ",queryParams)
+    
+    app.render(req,res,page,queryParams);
   })
 
   server.use("/dave",pro)
